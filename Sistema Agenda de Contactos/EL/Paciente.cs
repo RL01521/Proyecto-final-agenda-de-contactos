@@ -17,7 +17,7 @@ namespace EL
             FechaNacimiento = fechaNacimiento;
             HistorialClinico = historialClinico;
         }
-    }s
+    }
 }
 
 

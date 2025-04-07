@@ -4,3 +4,9 @@ C:\Users\HP\Documents\Progra1\Sistema Agenda de Contactos\EL\obj\Debug\EL.csproj
 C:\Users\HP\Documents\Progra1\Sistema Agenda de Contactos\EL\obj\Debug\EL.csproj.CoreCompileInputs.cache
 C:\Users\HP\Documents\Progra1\Sistema Agenda de Contactos\EL\obj\Debug\EL.dll
 C:\Users\HP\Documents\Progra1\Sistema Agenda de Contactos\EL\obj\Debug\EL.pdb
+C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\obj\Debug\EL.csproj.AssemblyReference.cache
+C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\obj\Debug\EL.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\obj\Debug\EL.dll
+C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\obj\Debug\EL.pdb
+C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\bin\Debug\EL.dll
+C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\bin\Debug\EL.pdb
