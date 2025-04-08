@@ -14,3 +14,19 @@ C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.pdb
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.Migrations.Inicial.resources
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\DAL.dll.config
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\DAL.dll
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\DAL.pdb
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\EL.dll
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\EL.pdb
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.dll
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.pdb
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.Migrations.Initial.resources
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

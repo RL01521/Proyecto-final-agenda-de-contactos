@@ -10,3 +10,9 @@ C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\obj\Debug\EL.dl
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\obj\Debug\EL.pdb
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\bin\Debug\EL.dll
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\EL\bin\Debug\EL.pdb
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\EL\bin\Debug\EL.dll
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\EL\bin\Debug\EL.pdb
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\EL\obj\Debug\EL.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\EL\obj\Debug\EL.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\EL\obj\Debug\EL.dll
+C:\Users\Usuario\OneDrive\Documentos\Programación I\Cambios\Proyecto-final-agenda-de-contactos\Sistema Agenda de Contactos\EL\obj\Debug\EL.pdb

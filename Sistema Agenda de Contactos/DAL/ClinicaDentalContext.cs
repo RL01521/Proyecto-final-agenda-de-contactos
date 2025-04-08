@@ -9,7 +9,7 @@ using EL;
 namespace DAL
 {
 
-    public class ClinicaDentalContext : DbContext
+    public class ClinicaDentalContext : DbContext 
     {
         public DbSet<Contacto> Contactos { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }
