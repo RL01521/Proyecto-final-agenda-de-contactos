@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EL
 {
-    public abstract class Contacto
+    public class Contacto
     {
         
         private static int contadorId = 0;

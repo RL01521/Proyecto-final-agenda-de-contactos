@@ -12,5 +12,5 @@ C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\bin\Debug\Enti
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.dll
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.pdb
-C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.Migrations.Initial.resources
+C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.Migrations.Inicial.resources
 C:\Users\javie\Desktop\C3\Cambios\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

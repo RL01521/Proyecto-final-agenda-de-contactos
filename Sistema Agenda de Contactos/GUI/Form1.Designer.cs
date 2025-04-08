@@ -81,6 +81,7 @@
             this.btnCerrar.TabIndex = 13;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnGuardar
             // 
@@ -92,7 +93,7 @@
             this.btnGuardar.TabIndex = 12;
             this.btnGuardar.Text = "Agregar";
             this.btnGuardar.UseVisualStyleBackColor = false;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            this.btnGuardar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtHistorialClinico
             // 
@@ -100,7 +101,6 @@
             this.txtHistorialClinico.Name = "txtHistorialClinico";
             this.txtHistorialClinico.Size = new System.Drawing.Size(311, 20);
             this.txtHistorialClinico.TabIndex = 11;
-            this.txtHistorialClinico.TextChanged += new System.EventHandler(this.txtHistorialClinico_TextChanged);
             // 
             // labelHistorial
             // 
@@ -200,7 +200,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Clinica Dental";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

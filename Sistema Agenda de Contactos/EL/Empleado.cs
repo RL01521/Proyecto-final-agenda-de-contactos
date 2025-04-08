@@ -14,6 +14,8 @@ namespace EL
 
     public class Empleado : Contacto
     {
+        
+
         public Cargo CargoEmpleado { get; set; }
         public DateTime FechaContratacion { get; set; }
 
