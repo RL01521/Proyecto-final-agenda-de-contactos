@@ -1,0 +1,34 @@
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\BLL.dll.config
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\BLL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\BLL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\DAL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\DAL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\DAL.dll.config
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.xml
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.pdb
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\BLL.dll.config
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\BLL.dll
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\BLL.pdb
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\DAL.dll
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EL.dll
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.dll
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\DAL.pdb
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\DAL.dll.config
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EL.pdb
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.xml
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.dll
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Debug\BLL.pdb

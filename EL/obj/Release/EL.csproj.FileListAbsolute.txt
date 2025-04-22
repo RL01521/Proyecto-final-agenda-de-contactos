@@ -1,0 +1,6 @@
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\EL\bin\Release\EL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\EL\bin\Release\EL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\EL\obj\Release\EL.csproj.AssemblyReference.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\EL\obj\Release\EL.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\EL\obj\Release\EL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\EL\obj\Release\EL.pdb

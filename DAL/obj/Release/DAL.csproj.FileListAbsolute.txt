@@ -1,0 +1,16 @@
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\DAL.dll.config
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\DAL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\DAL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\EL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\EntityFramework.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\EL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\EntityFramework.xml
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Release\DAL.Migrations.InitialCreate.resources
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Release\DAL.csproj.GenerateResource.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Release\DAL.csproj.Up2Date
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Release\DAL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Release\DAL.pdb

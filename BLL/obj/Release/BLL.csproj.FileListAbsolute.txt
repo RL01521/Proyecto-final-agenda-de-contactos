@@ -1,0 +1,17 @@
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\BLL.dll.config
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\BLL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\BLL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\DAL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\EL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\EntityFramework.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\DAL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\DAL.dll.config
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\EL.pdb
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\EntityFramework.xml
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Release\BLL.csproj.AssemblyReference.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Release\BLL.csproj.Up2Date
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Release\BLL.dll
+C:\Users\javie\Desktop\C1\Proyecto Final\Sistema Agenda de Contactos\BLL\obj\Release\BLL.pdb
