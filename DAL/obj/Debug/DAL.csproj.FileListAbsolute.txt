@@ -28,5 +28,5 @@ C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sist
 C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.dll
 C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.pdb
-C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.Migrations.Initialmigration.resources
+C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.Migrations.InitialMigration.resources
 C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\DAL\obj\Debug\DAL.csproj.GenerateResource.cache

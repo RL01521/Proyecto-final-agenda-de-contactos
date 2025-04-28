@@ -1,89 +1,80 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DAL;
 using EL;
 
 namespace BLL
 {
-
-    public class ContactoBLL
+    public class ContactoBLL : IDisposable
     {
+        private readonly ClinicaDentalContext _context;
+
+        public ContactoBLL()
+        {
+            _context = new ClinicaDentalContext(); 
+        }
+
+        // Método para insertar un nuevo contacto
         public void Insertar(Contacto contacto)
         {
-            using (var context = new ClinicaDentalContext()) // Se crea un contexto de base de datos.
-            {
-                context.Contactos.Add(contacto);
-                context.SaveChanges();
-            }
+            _context.Contactos.Add(contacto);
+            _context.SaveChanges(); 
         }
 
-        // Método para actualizar un contacto existente en la base de datos.
+        // Método para actualizar un contacto existente en la base de datos
         public void Actualizar(Contacto contacto)
         {
-            using (var context = new ClinicaDentalContext())
+            var existente = _context.Contactos.Find(contacto.Id); // Buscar el contacto por su ID
+            if (existente != null) // Si el contacto existe
             {
-                var existente = context.Contactos.Find(contacto.Id); // Se busca el contacto por su ID.
-                if (existente != null) // Si el contacto existe,
-                {
-                    context.Entry(existente).CurrentValues.SetValues(contacto); // Se actualizan sus valores.
-                    context.SaveChanges();
-                }
+                // Actualizar los valores del contacto existente
+                existente.Nombre = contacto.Nombre;
+                existente.Apellido = contacto.Apellido;
+                existente.Telefono = contacto.Telefono;
+                existente.Correo = contacto.Correo;
+                _context.SaveChanges(); 
             }
         }
 
-        // Método para eliminar un contacto de la base de datos según su ID.
+        // Método para eliminar un contacto de la base de datos según su ID
         public void Eliminar(int id)
         {
-            using (var context = new ClinicaDentalContext())
+            var contacto = _context.Contactos.Find(id);
+            if (contacto != null) 
             {
-                var contacto = context.Contactos.Find(id);
-                if (contacto != null) // Si existe,
-                {
-                    context.Contactos.Remove(contacto); // Se elimina.
-                    context.SaveChanges();
-                }
+                _context.Contactos.Remove(contacto); // Eliminar
+                _context.SaveChanges(); 
             }
         }
 
-        // Método para obtener un contacto específico por su ID.
+        // Método para obtener un contacto específico por su ID
         public Contacto ObtenerPorId(int id)
         {
-            using (var context = new ClinicaDentalContext())
-            {
-                return context.Contactos.Find(id); // Se devuelve el contacto encontrado.
-            }
+            return _context.Contactos.Find(id); // Devolver el contacto encontrado
         }
 
-        // Método para obtener una lista de todos los contactos.
+        // Método para obtener una lista de todos los contactos
         public List<Contacto> ObtenerTodos()
         {
-            using (var context = new ClinicaDentalContext())
-            {
-                return context.Contactos.ToList(); // Se obtiene la lista completa de contactos.
-            }
+            return _context.Contactos.ToList(); // Obtener la lista completa de contactos
         }
 
-        // Método para obtener solo los contactos que son pacientes.
+        // Método para obtener solo los contactos que son pacientes
         public List<Paciente> ObtenerTodosPacientes()
         {
-            using (var context = new ClinicaDentalContext())
-            {
-                return context.Contactos.OfType<Paciente>().ToList();
-                // Se filtran los contactos que son de tipo Paciente y se devuelven.
-            }
+            return _context.Contactos.OfType<Paciente>().ToList(); // Filtrar y devolver pacientes
         }
 
-        // Método para obtener solo los contactos que son empleados.
+        // Método para obtener solo los contactos que son empleados
         public List<Empleado> ObtenerTodosEmpleados()
         {
-            using (var context = new ClinicaDentalContext())
-            {
-                return context.Contactos.OfType<Empleado>().ToList();
-                // Se filtran los contactos que son de tipo Empleado y se devuelven.
-            }
+            return _context.Contactos.OfType<Empleado>().ToList(); // Filtrar y devolver empleados
+        }
+
+        public void Dispose()
+        {
+            _context.Dispose(); // Liberar el contexto de la base de datos
         }
     }
 }

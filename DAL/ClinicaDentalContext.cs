@@ -48,17 +48,53 @@ namespace DAL
             modelBuilder.Entity<Empleado>()
                 .Property(e => e.Apellido).IsRequired().HasMaxLength(50);
             modelBuilder.Entity<Empleado>()
-                .Property(e => e.Correo).IsOptional().HasMaxLength(100);
+                .Property(e => e.Correo).IsOptional().HasMaxLength(100);     
+      
+        }
+    }
+    public class ClinicaDentalDataAcceso : IDisposable
+    {
+        private readonly ClinicaDentalContext _context;
 
+        public ClinicaDentalDataAcceso()
+        {
+            _context = new ClinicaDentalContext(); 
+        }
 
-            modelBuilder.Entity<Contacto>()
-                .Property(c => c.Nombre).IsRequired().HasMaxLength(50);
-            modelBuilder.Entity<Contacto>()
-                .Property(c => c.Apellido).IsRequired().HasMaxLength(50);
-            modelBuilder.Entity<Contacto>()
-                .Property(c => c.Telefono).IsRequired().HasMaxLength(20);
-            modelBuilder.Entity<Contacto>()
-                .Property(c => c.Correo).IsOptional().HasMaxLength(100);
+      
+        public List<Contacto> ObtenerContactos()
+        {
+            return _context.Contactos.ToList(); 
+        }
+
+      
+        public void AgregarContacto(Contacto contacto)
+        {
+            _context.Contactos.Add(contacto);
+            _context.SaveChanges(); 
+        }
+
+       
+        public Paciente ObtenerPacientePorId(int id)
+        {
+            return _context.Pacientes.Find(id); 
+        }
+
+      
+        public void EliminarContacto(int id)
+        {
+            var contacto = _context.Contactos.Find(id);
+            if (contacto != null)
+            {
+                _context.Contactos.Remove(contacto);
+                _context.SaveChanges(); 
+            }
+        }
+
+        
+        public void Dispose()
+        {
+            _context.Dispose();
         }
     }
 }
