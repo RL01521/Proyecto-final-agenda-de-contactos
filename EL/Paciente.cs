@@ -11,6 +11,9 @@ namespace EL
         public DateTime FechaNacimiento { get; set; }
         public string HistorialClinico { get; set; }
 
+        public Paciente()
+        {
+        }
         public Paciente(string nombre, string apellido, string telefono, string correo, DateTime fechaNacimiento, string historialClinico)
             : base(nombre, apellido, telefono, correo)
         {

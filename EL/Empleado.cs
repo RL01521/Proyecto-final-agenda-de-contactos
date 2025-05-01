@@ -12,6 +12,9 @@ namespace EL
         Administrativo
     }
 
+   
+      
+
     public class Empleado : Contacto
     {
 
@@ -24,6 +27,10 @@ namespace EL
         {
             CargoEmpleado = cargo;
             FechaContratacion = fechaContratacion;
+        }
+
+        public Empleado()
+        {
         }
     }
 }

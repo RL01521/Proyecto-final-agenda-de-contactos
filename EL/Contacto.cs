@@ -22,6 +22,10 @@ namespace EL
         public string Telefono { get; set; }
         public string Correo { get; set; }
 
+        public Contacto()
+        {
+        }
+
 
         protected Contacto(string nombre, string apellido, string telefono, string correo)
         {

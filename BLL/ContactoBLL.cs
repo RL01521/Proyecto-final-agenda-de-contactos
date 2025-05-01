@@ -60,6 +60,30 @@ namespace BLL
             return _context.Contactos.ToList(); // Obtener la lista completa de contactos
         }
 
+        public List<Contacto> Buscar(string filtro)
+        {
+            // 1) Si filtro es un número, búsqueda exacta por ID
+            if (int.TryParse(filtro, out int id))
+            {
+                var contacto = _context.Contactos
+                                       .AsNoTracking()
+                                       .FirstOrDefault(c => c.Id == id);
+                return contacto != null
+                    ? new List<Contacto> { contacto }
+                    : new List<Contacto>();
+            }
+
+            // 2) Si no es número, búsqueda de texto en los otros campos
+            return _context.Contactos
+                           .AsNoTracking()
+                           .Where(c =>
+                               c.Nombre.Contains(filtro) ||
+                               c.Apellido.Contains(filtro) ||
+                               c.Correo.Contains(filtro) ||
+                               c.Telefono.Contains(filtro))
+                           .ToList();
+        }
+
         // Método para obtener solo los contactos que son pacientes
         public List<Paciente> ObtenerTodosPacientes()
         {

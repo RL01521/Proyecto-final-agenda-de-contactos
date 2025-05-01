@@ -90,8 +90,13 @@ namespace DAL
                 _context.SaveChanges(); 
             }
         }
+        public void ActualizarContacto(Contacto contacto)
+        {
+            
+            _context.Entry(contacto).State = EntityState.Modified;
+            _context.SaveChanges();
+        }
 
-        
         public void Dispose()
         {
             _context.Dispose();

@@ -24,7 +24,7 @@ namespace GUI
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            // Validación mejorada
+         
             if (!ValidarDatos())
                 return;
 
@@ -45,7 +45,7 @@ namespace GUI
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 LimpiarFormulario();
-                // O this.Close() si deseas cerrar después de agregar
+                
             }
             catch (Exception ex)
             {
@@ -105,6 +105,21 @@ namespace GUI
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
