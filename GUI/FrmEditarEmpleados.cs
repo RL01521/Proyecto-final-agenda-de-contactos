@@ -134,5 +134,40 @@ namespace GUI
         {
 
         }
+
+        private void txtTelefono_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+
+            // Permitir solo si es dígito y hay menos de 8 caracteres
+            if (!char.IsControl(e.KeyChar))
+            {
+                if (!char.IsDigit(e.KeyChar) || textBox.Text.Length >= 8)
+                {
+                    e.Handled = true; // Bloquea la tecla
+                }
+            }
+        }
+
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true; // Bloquea la tecla si NO es letra
+            }
+        }
+
+        private void txtApellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true; // Bloquea la tecla si NO es letra
+            }
+        }
     }
 }
