@@ -26,14 +26,21 @@ namespace BLL
         public void Actualizar(Contacto contacto)
         {
             var existente = _context.Contactos.Find(contacto.Id); // Buscar el contacto por su ID
-            if (existente != null) // Si el contacto existe
+            if (existente != null)
             {
-                // Actualizar los valores del contacto existente
                 existente.Nombre = contacto.Nombre;
                 existente.Apellido = contacto.Apellido;
                 existente.Telefono = contacto.Telefono;
                 existente.Correo = contacto.Correo;
-                _context.SaveChanges(); 
+
+                // Si ambos son pacientes, actualiza también los campos específicos
+                if (existente is Paciente pacienteExistente && contacto is Paciente pacienteNuevo)
+                {
+                    pacienteExistente.FechaNacimiento = pacienteNuevo.FechaNacimiento;
+                    pacienteExistente.HistorialClinico = pacienteNuevo.HistorialClinico;
+                }
+
+                _context.SaveChanges();
             }
         }
 
@@ -47,6 +54,13 @@ namespace BLL
                 _context.SaveChanges(); 
             }
         }
+
+        // Version 2 Eliminar descartada
+        //public void EliminarPaciente(int id)
+        //{
+        //    // Llama a la capa de acceso a datos (DAL)
+        //    new DAL.ContactoDAL().Eliminar(id); // O el nombre correcto según tu estructura
+        //}
 
         // Método para obtener un contacto específico por su ID
         public Contacto ObtenerPorId(int id)

@@ -46,6 +46,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -62,35 +63,41 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ClinicaDentalDatabaseDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ContactosEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactosEmpleados.Designer.cs">
+      <DependentUpon>ContactosEmpleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAgenda.cs">
+    <Compile Include="ContactosPacientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAgenda.Designer.cs">
-      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    <Compile Include="ContactosPacientes.Designer.cs">
+      <DependentUpon>ContactosPacientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEditarContacto.cs">
+    <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEditarContacto.Designer.cs">
-      <DependentUpon>FrmEditarContacto.cs</DependentUpon>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEmpleados.cs">
+    <Compile Include="FrmEditarPacientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEmpleados.Designer.cs">
-      <DependentUpon>FrmEmpleados.cs</DependentUpon>
+    <Compile Include="FrmEditarPacientes.Designer.cs">
+      <DependentUpon>FrmEditarPacientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmLogin.cs">
+    <Compile Include="FrmEditarEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmLogin.Designer.cs">
-      <DependentUpon>FrmLogin.cs</DependentUpon>
+    <Compile Include="FrmEditarEmpleados.Designer.cs">
+      <DependentUpon>FrmEditarEmpleados.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -98,34 +105,37 @@
     <Compile Include="FrmMenuPrincipal.Designer.cs">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPacientes.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPacientes.Designer.cs">
-      <DependentUpon>FrmPacientes.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContactosEmpleados.resx">
+      <DependentUpon>ContactosEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAgenda.resx">
-      <DependentUpon>FrmAgenda.cs</DependentUpon>
+    <EmbeddedResource Include="ContactosPacientes.resx">
+      <DependentUpon>ContactosPacientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmEditarContacto.resx">
-      <DependentUpon>FrmEditarContacto.cs</DependentUpon>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmEmpleados.resx">
-      <DependentUpon>FrmEmpleados.cs</DependentUpon>
+    <EmbeddedResource Include="FrmEditarEmpleados.resx">
+      <DependentUpon>FrmEditarEmpleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmLogin.resx">
-      <DependentUpon>FrmLogin.cs</DependentUpon>
+    <EmbeddedResource Include="FrmEditarPacientes.resx">
+      <DependentUpon>FrmEditarPacientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPacientes.resx">
-      <DependentUpon>FrmPacientes.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -15,107 +15,100 @@ namespace GUI
         public FrmMenuPrincipal()
         {
             InitializeComponent();
-            AsociarEventos();
+            this.StartPosition = FormStartPosition.CenterScreen;
+            menuStrip1.Renderer = new MyRenderer();
         }
 
-        private void AsociarEventos()
+        public class MyRenderer : ToolStripProfessionalRenderer
         {
-            // Agenda
-            agendaToolStripMenuItem.Click += agendaToolStripMenuItem_Click;
-
-
-            // Empleados
-            trabajadoresToolStripMenuItem.Click += TrabajadoresToolStripMenuItem_Click;
-
-            // Pacientes
-            pacientesToolStripMenuItem.Click += PacientesToolStripMenuItem_Click;
-
-            // Agregar Contacto
-            agregarContactoToolStripMenuItem.Click += AgregarContactoToolStripMenuItem_Click;
-
-            // Cerrar Sesión y Salir
-            var sesiónMenu = new ToolStripMenuItem("Sesión");
-            var cerrarSesion = new ToolStripMenuItem("Cerrar Sesión", null, CerrarSesion_Click);
-            var salir = new ToolStripMenuItem("Salir", null, Salir_Click);
-            sesiónMenu.DropDownItems.Add(cerrarSesion);
-            sesiónMenu.DropDownItems.Add(salir);
-            menuStrip1.Items.Add(sesiónMenu);
-        }
-
-        private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            // ocultar el menú mientras Form1 esté abierto
-            this.Hide();
-
-            using (var f1 = new FrmAgenda())
+            protected override void OnRenderMenuItemBackground(ToolStripItemRenderEventArgs e)
             {
-                f1.ShowDialog();    // Abre Form1 
+                if (e.Item.Selected)
+                {
+                    // Esto es para Para cuando pase el maus tenga un color diferente (hover)
+                    e.Graphics.FillRectangle(new SolidBrush(Color.FromArgb(102, 155, 188)), e.Item.ContentRectangle);
+                }
+                else
+                {
+                    base.OnRenderMenuItemBackground(e);
+                }
             }
-
-            // Cuando Form1 se cierra, vuelvo aquí
-            this.Show();      
         }
-
-        private void TrabajadoresToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-
-            using (var f1 = new FrmEmpleados())
-            {
-                f1.ShowDialog();    
-            }
-
-      
-            this.Show();     
-        }
-
-        private void PacientesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-            this.Hide();
-
-            using (var f1 = new FrmPacientes())
-            {
-                f1.ShowDialog();    
-            }
-
-    
-            this.Show();
-        }
-
-        private void AgregarContactoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-         
-            this.Hide();
-
-            using (var f1 = new Form1())
-            {
-                f1.ShowDialog();    
-            }
-
-      
-            this.Show();
-        }
-
-        private void CerrarSesion_Click(object sender, EventArgs e)
+            private void sdsToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            this.Hide();
-            using (var login = new FrmLogin())
-            {
-                login.ShowDialog();
-            }
+        }
+
+        private void cuentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
             
+
         }
 
-        private void Salir_Click(object sender, EventArgs e)
+        private void cerraSecToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
 
         private void FrmMenuPrincipal_Load(object sender, EventArgs e)
         {
 
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void FrmMenuPrincipal_Load_1(object sender, EventArgs e)
+        {
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        // Opcion del menustrip que cierra todo el programa
+        private void salirToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        // La opcion de apartado contactos que me abre el formulario Contactos Pacientes
+        private void pacienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ContactosPacientes contactosForm = new ContactosPacientes();
+            contactosForm.StartPosition = FormStartPosition.CenterScreen;
+            contactosForm.Show();
+            this.Hide();
+        }
+
+        // La opcion de apartado contactos que me abre el formulario Contactos Empleados
+        private void empleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ContactosEmpleados contactosForm = new ContactosEmpleados();
+            contactosForm.StartPosition = FormStartPosition.CenterScreen;
+            contactosForm.Show();
+            this.Hide();
+        }
+
+        // Opcion del menustrip que me regresa al inicio de sesion
+        private void cerraSecToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Login iniciodesesion = new Login();
+            iniciodesesion.StartPosition = FormStartPosition.CenterScreen;
+            iniciodesesion.Show();
+            this.Hide();
         }
     }
 }

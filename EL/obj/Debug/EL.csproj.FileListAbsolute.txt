@@ -10,3 +10,15 @@ C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sist
 C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\EL\obj\Debug\EL.csproj.CoreCompileInputs.cache
 C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\EL\obj\Debug\EL.dll
 C:\Users\javie\OneDrive\Desktop\Nueva carpeta\Proyecto Final\Proyecto Final\Sistema Agenda de Contactos\EL\obj\Debug\EL.pdb
+C:\Users\gato0\OneDrive\Desktop\Copia de proyecto\EL\bin\Debug\EL.dll
+C:\Users\gato0\OneDrive\Desktop\Copia de proyecto\EL\bin\Debug\EL.pdb
+C:\Users\gato0\OneDrive\Desktop\Copia de proyecto\EL\obj\Debug\EL.csproj.AssemblyReference.cache
+C:\Users\gato0\OneDrive\Desktop\Copia de proyecto\EL\obj\Debug\EL.csproj.CoreCompileInputs.cache
+C:\Users\gato0\OneDrive\Desktop\Copia de proyecto\EL\obj\Debug\EL.dll
+C:\Users\gato0\OneDrive\Desktop\Copia de proyecto\EL\obj\Debug\EL.pdb
+C:\Copia de proyecto\EL\bin\Debug\EL.dll
+C:\Copia de proyecto\EL\bin\Debug\EL.pdb
+C:\Copia de proyecto\EL\obj\Debug\EL.csproj.AssemblyReference.cache
+C:\Copia de proyecto\EL\obj\Debug\EL.csproj.CoreCompileInputs.cache
+C:\Copia de proyecto\EL\obj\Debug\EL.dll
+C:\Copia de proyecto\EL\obj\Debug\EL.pdb

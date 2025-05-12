@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class Form1
+    partial class FrmEditarEmpleados
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbCargo = new System.Windows.Forms.ComboBox();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.txtHistorialClinico = new System.Windows.Forms.TextBox();
             this.labelHistorial = new System.Windows.Forms.Label();
-            this.dtpNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaContratacion = new System.Windows.Forms.DateTimePicker();
             this.labelFecha = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.labelTelefono = new System.Windows.Forms.Label();
@@ -49,11 +49,11 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.groupBox1.Controls.Add(this.cmbCargo);
             this.groupBox1.Controls.Add(this.btnCerrar);
             this.groupBox1.Controls.Add(this.btnAgregar);
-            this.groupBox1.Controls.Add(this.txtHistorialClinico);
             this.groupBox1.Controls.Add(this.labelHistorial);
-            this.groupBox1.Controls.Add(this.dtpNacimiento);
+            this.groupBox1.Controls.Add(this.dtpFechaContratacion);
             this.groupBox1.Controls.Add(this.labelFecha);
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.labelTelefono);
@@ -63,15 +63,25 @@
             this.groupBox1.Controls.Add(this.labelApellido);
             this.groupBox1.Controls.Add(this.txtNombre);
             this.groupBox1.Controls.Add(this.labelNombre);
-            this.groupBox1.Location = new System.Drawing.Point(191, 66);
+            this.groupBox1.Location = new System.Drawing.Point(191, 65);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(675, 454);
-            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Agregar Contacto:";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
+            // 
+            // cmbCargo
+            // 
+            this.cmbCargo.DisplayMember = "CargoEmpleado";
+            this.cmbCargo.FormattingEnabled = true;
+            this.cmbCargo.Location = new System.Drawing.Point(25, 308);
+            this.cmbCargo.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbCargo.Name = "cmbCargo";
+            this.cmbCargo.Size = new System.Drawing.Size(289, 24);
+            this.cmbCargo.TabIndex = 4;
+            this.cmbCargo.ValueMember = "CargoEmpleado";
             // 
             // btnCerrar
             // 
@@ -82,9 +92,9 @@
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(100, 28);
             this.btnCerrar.TabIndex = 13;
-            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.Text = "Cancelar";
             this.btnCerrar.UseVisualStyleBackColor = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click_1);
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnAgregar
             // 
@@ -95,45 +105,38 @@
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(100, 28);
             this.btnAgregar.TabIndex = 12;
-            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Text = "Guardar";
             this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click_1);
-            // 
-            // txtHistorialClinico
-            // 
-            this.txtHistorialClinico.Location = new System.Drawing.Point(25, 369);
-            this.txtHistorialClinico.Margin = new System.Windows.Forms.Padding(4);
-            this.txtHistorialClinico.Name = "txtHistorialClinico";
-            this.txtHistorialClinico.Size = new System.Drawing.Size(403, 22);
-            this.txtHistorialClinico.TabIndex = 11;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // labelHistorial
             // 
             this.labelHistorial.AutoSize = true;
-            this.labelHistorial.Location = new System.Drawing.Point(21, 350);
+            this.labelHistorial.Location = new System.Drawing.Point(21, 288);
             this.labelHistorial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelHistorial.Name = "labelHistorial";
-            this.labelHistorial.Size = new System.Drawing.Size(100, 16);
+            this.labelHistorial.Size = new System.Drawing.Size(47, 16);
             this.labelHistorial.TabIndex = 10;
-            this.labelHistorial.Text = "Historial clinico:";
+            this.labelHistorial.Text = "Cargo:";
             // 
-            // dtpNacimiento
+            // dtpFechaContratacion
             // 
-            this.dtpNacimiento.Location = new System.Drawing.Point(25, 309);
-            this.dtpNacimiento.Margin = new System.Windows.Forms.Padding(4);
-            this.dtpNacimiento.Name = "dtpNacimiento";
-            this.dtpNacimiento.Size = new System.Drawing.Size(265, 22);
-            this.dtpNacimiento.TabIndex = 9;
+            this.dtpFechaContratacion.Location = new System.Drawing.Point(24, 370);
+            this.dtpFechaContratacion.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpFechaContratacion.Name = "dtpFechaContratacion";
+            this.dtpFechaContratacion.Size = new System.Drawing.Size(265, 22);
+            this.dtpFechaContratacion.TabIndex = 9;
+            this.dtpFechaContratacion.ValueChanged += new System.EventHandler(this.dtpFechaContratacion_ValueChanged);
             // 
             // labelFecha
             // 
             this.labelFecha.AutoSize = true;
-            this.labelFecha.Location = new System.Drawing.Point(21, 288);
+            this.labelFecha.Location = new System.Drawing.Point(22, 350);
             this.labelFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelFecha.Name = "labelFecha";
-            this.labelFecha.Size = new System.Drawing.Size(135, 16);
+            this.labelFecha.Size = new System.Drawing.Size(143, 16);
             this.labelFecha.TabIndex = 8;
-            this.labelFecha.Text = "Fecha de nacimiento:";
+            this.labelFecha.Text = "Fecha de contratación:";
             // 
             // txtTelefono
             // 
@@ -207,16 +210,16 @@
             this.labelNombre.TabIndex = 0;
             this.labelNombre.Text = "Nombre:";
             // 
-            // Form1
+            // FrmEditarEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(155)))), ((int)(((byte)(188)))));
             this.ClientSize = new System.Drawing.Size(1056, 584);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "FrmEditarEmpleados";
+            this.Text = "FrmEditarEmpleados";
+            this.Load += new System.EventHandler(this.FrmEditarEmpleados_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -226,11 +229,11 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.ComboBox cmbCargo;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.TextBox txtHistorialClinico;
         private System.Windows.Forms.Label labelHistorial;
-        private System.Windows.Forms.DateTimePicker dtpNacimiento;
+        private System.Windows.Forms.DateTimePicker dtpFechaContratacion;
         private System.Windows.Forms.Label labelFecha;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.Label labelTelefono;
